@@ -1,0 +1,331 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;  
+
+}
+.toprow{
+    background: rgb(240, 62, 28,.7);
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    }
+
+.logorow {
+    display: flex;
+    margin: 75px 115px 30px 115px;    
+    flex-wrap: wrap;
+}
+
+.logorow > div {
+    width: 33.33%;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    }
+    
+.sociallinks {
+    font-size: 2rem;
+    display: flex;
+    gap: 20px;
+    padding-left: 20px ;
+    flex-wrap: wrap;
+    cursor: pointer;
+
+    }
+.logo {
+    width: 50%;
+    flex-wrap: wrap;
+}   
+
+.cart {
+    display: flex;
+    justify-content: right;
+    padding-right: 11px;
+    flex-wrap: wrap;
+}
+
+.nav {
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+}
+.nav ul li {
+    display: inline;
+    padding: 20px;
+    cursor: pointer;
+}
+.nav ul li:hover {
+    color: rgb(240, 62, 28,.7);
+}
+.herosection {
+ position: relative;
+ margin: 60px 115px 30px 115px;
+ justify-content: center;
+}
+.herosection img {
+    width: 100%;
+}
+.herocontent {
+    position: absolute;
+    right:0;
+    top:0;
+    padding: 10rem 2rem;
+    background-image: linear-gradient(rgba(228, 105, 57),rgba(228, 105, 57, 0.6)) ;
+    color: whitesmoke;
+    width: 40%;
+    height: 99.5%;                              
+    justify-content: end;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+   }
+
+.herocontent p {
+    color: black;
+    font-size: 20px;
+    font-weight: 1;
+}
+
+.herocontent h1 {
+    font-size: 3rem;
+    font-weight: 10;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+    line-height: 60px;
+}
+
+.ctabtn {
+    background-color: black;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    color: whitesmoke;
+    width: 18rem;
+    padding: 15px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.locations {
+margin: 75px 115px 30px 115px;   
+}
+
+.locations p{
+margin-bottom: 30px;
+font-size: 20px;   
+color: rgb(196, 83, 43);
+letter-spacing: 2px;
+font-weight: 100;
+}
+
+.locations div {
+display: flex;
+gap: 2rem;
+}
+
+.locationhouses {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+}
+
+.houseimg {
+    flex: 33.33%;
+    width: 1%;
+}
+
+
+.cardsection, .makeyourmove {
+display: flex;
+margin: 100px 115px 30px 115px;
+}
+
+.card{
+background-color: rgb(253, 241, 239);
+padding: 25px 32px 25px 32px;
+display: flex;
+flex-basis: 33.33%;
+flex-direction: column;
+align-items: center;
+/* justify-content: center; */
+/* align-content: center; */
+}
+
+.card h3 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 1;
+    text-align: center;
+}
+.card p {
+    color: rgb(112, 111, 111);
+    font-size: 25px;
+    font-weight: 1;
+    letter-spacing: 1px;
+}
+.card > div {
+    margin: 10px;
+}
+
+.learnbtn {
+    background-color: rgb(243, 118, 74);
+    border: none;
+    /* width: 12rem; */
+    font-size: 1rem;
+    font-weight: 1000;
+    letter-spacing: 3px;
+    padding: 15px;
+    cursor: pointer;
+}
+.learnbtn:hover {
+    transform: rotateZ('30');
+    background-color: rgb(241, 157, 127);
+    box-shadow: 0 .3rem .5rem rgb(235, 173, 150);
+
+}
+.makeyourmove {
+margin: 40px 115px 30px 115px;
+background-color: rgb(253, 241, 239);
+
+}
+.movecard {
+    padding-left: 4rem;
+} 
+.movecard h1{
+padding-top: 4rem;
+font-size: 18px;   
+color: rgb(196, 83, 43);
+letter-spacing: 2px;
+font-weight: 100;
+}
+.movecard p {
+    padding: 2rem 4rem 2rem 0rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.dontwait {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    
+}
+.dontwait h2 {
+font-size: 2.3rem;
+font-weight: 300;
+}
+.dontwait p {
+    padding-top: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.line {
+padding-top: 1.5rem;
+width: 8%;
+margin: auto;
+font-weight: 1500;
+}
+
+.commitment{
+    margin: 40px 115px 30px 115px;
+    text-align: center;
+    padding: 0rem  13rem;
+
+}
+
+.commitment h1 {
+    padding-bottom: 1.5rem;
+    font-weight: 100;
+}
+
+.commitment p {
+    padding-bottom: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: rgb(117, 116, 116);
+}
+
+.harthomes {
+    background-color: rgb(243, 118, 74);
+
+}
+
+.hartcard {
+    display: flex;
+    align-items: center;
+    margin: 1rem 6rem 1rem 6rem ;
+}
+
+.cardcontent {
+    flex: 1;
+    padding: 2rem 0 0 5rem;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+}
+
+.cardimage{
+    padding: 2rem 0;
+}
+.cardheading {
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+}   
+.child1{
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.child2{
+   padding-top: 1rem;
+}
+
+.clients{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.footersec{
+    padding: 1rem 0 0rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 2rem;
+}
+
+.footercontent {
+    padding-top: 2rem;
+    color: grey;
+    text-align: center;
+}
+
+.chat{
+    background-color: rgb(255, 83, 21,.7);
+    border-radius: 50%;
+    height: 3.5rem;
+    width: 3.5rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
